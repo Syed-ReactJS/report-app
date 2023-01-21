@@ -1,0 +1,54 @@
+.dashboard-layout {
+  display: flex;
+  flex-direction: row;
+  background: #f7f8fc;
+}
+
+/* side menu css start */
+.menu-container {
+  width: 255px;
+  height: 100vh;
+  left: 0px;
+  top: -29px;
+  background: #363740;
+}
+.menu-list {
+  display: flex;
+  flex-direction: column;
+}
+.menu-logo img {
+  width: 20px;
+  height: 20px;
+}
+.menu-logo {
+  display: flex;
+  flex-direction: row;
+  height: 56px;
+  color: #dde2ff;
+  padding-left: 32px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  gap: 20px;
+  align-items: center;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  height: 56px;
+  color: #dde2ff;
+  padding-left: 32px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  gap: 20px;
+  align-items: center;
+}
+.list:hover {
+  background: #9fa2b4;
+  cursor: pointer;
+}
+
+/* panel css start */

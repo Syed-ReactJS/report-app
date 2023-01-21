@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* styles for dark mode */
+.dark-mode .container {
+  background-color: #212121;
+  color: #fff;
+}
+.dark-mode .form-container {
+  background-color: #313131;
+  color: #fff;
+}
+.dark-mode input {
+  background-color: #313131;
+  color: #fff;
+}
+.dark-mode a {
+  background-color: #313131;
+  color: #fff;
+}
+.dark-mode i {
+  color: #fff;
+}
