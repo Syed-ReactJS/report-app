@@ -1,7 +1,6 @@
 import { useEffect } from "react";
-
+import SideMenu from "../panel/dashboard/SideMenu";
 import "../panel/Panel.css";
-import SideMenu from "../dashboard/SideMenu";
 
 const DashboardLayout = ({ children }) => {
   useEffect(() => {

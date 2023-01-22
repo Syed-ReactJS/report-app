@@ -1,4 +1,14 @@
-.top-header {
-  background-color: #ffffff;
-  width: calc(100vw -255px);
+.row {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  width: 290px;
+  height: 220px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
 }

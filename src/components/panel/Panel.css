@@ -52,3 +52,12 @@
 }
 
 /* panel css start */
+.dashboard-container{
+  padding: 10px;
+}
+.panel-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}

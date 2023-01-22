@@ -3,7 +3,6 @@ const SideMenu = () => {
     <div className="menu-container">
       <div className="menu-logo">
         <i class="fa fa-book-dead"></i>
-
         <p>Report App</p>
       </div>
       <div className="menu-list">
