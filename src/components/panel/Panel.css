@@ -1,7 +1,8 @@
 .dashboard-layout {
   display: flex;
   flex-direction: row;
-  background: #f7f8fc;
+  background: #eff0f3;
+
 }
 
 /* side menu css start */
@@ -52,12 +53,12 @@
 }
 
 /* panel css start */
-.dashboard-container{
-  padding: 10px;
-}
 .panel-header{
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
+}
+.layout{
+  padding: 10px;
 }

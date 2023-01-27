@@ -5,10 +5,11 @@
   flex-direction: row;
 }
 .card {
-  width: 290px;
+  width: 337px;
   height: 220px;
   background-color: #fff;
   border-radius: 5px;
   padding: 10px;
   margin: 10px;
+  
 }

@@ -4,6 +4,8 @@ import Login from "./components/auth/Login";
 import Reset from "./components/auth/Reset";
 import Signup from "./components/auth/Signup";
 import Dashboard from "./components/panel/dashboard/Dasboard";
+import Report from "./components/panel/report/Report";
+import Upload from "./components/panel/upload/Upload";
 import "./style.css";
 
 export default function App() {
@@ -15,6 +17,8 @@ export default function App() {
       <Route path="/forget" element={<Forget />} />
       <Route path="/reset" element={<Reset />} />
       <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/upload" element={<Upload />} />
+      <Route path="/report" element={<Report />} />
     </Routes>
   );
 }

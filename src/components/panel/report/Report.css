@@ -1,0 +1,14 @@
+.list-container{
+    width: 1050px;
+    align-items: center;   
+    justify-content: center; 
+    display: flex;
+}
+.table-list {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  width: 95%;
+  text-align: center;
+}
