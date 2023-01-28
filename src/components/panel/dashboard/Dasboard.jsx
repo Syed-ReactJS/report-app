@@ -5,10 +5,10 @@ const Dashboard = () => {
   return (
     <DashboardLayout>
       <div className="dashboard-container">
-        <div className="panel-header">
+        {/* <div className="panel-header">
           <i class="fa-solid fa-bars"></i>
           <h3>Dashboard</h3>
-        </div>
+        </div> */}
         <div className="row">
           <div className="card">
             <h3>All Report</h3>

@@ -6,6 +6,7 @@ import Signup from "./components/auth/Signup";
 import Dashboard from "./components/panel/dashboard/Dasboard";
 import Report from "./components/panel/report/Report";
 import Upload from "./components/panel/upload/Upload";
+import User from "./components/panel/users/User";
 import "./style.css";
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/upload" element={<Upload />} />
       <Route path="/report" element={<Report />} />
+      <Route path="/user" element={<User />} />
     </Routes>
   );
 }

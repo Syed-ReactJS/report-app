@@ -1,7 +1,6 @@
-import React from "react";
 import DashboardLayout from "../../layout/DashboardLayout";
-import "./Report.css";
-const Report = () => {
+import "./User.css";
+const User = () => {
   return (
     <DashboardLayout>
       <div className="list-container">
@@ -38,4 +37,4 @@ const Report = () => {
   );
 };
 
-export default Report;
+export default User;

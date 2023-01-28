@@ -26,10 +26,12 @@ const SideMenu = () => {
             <p>Report</p>
           </div>
         </NavLink>
-        <div className="list">
-          <i class="fa fa-user"></i>
-          <p>Users</p>
-        </div>
+        <NavLink to="/user">
+          <div className="list">
+            <i class="fa fa-user"></i>
+            <p>Users</p>
+          </div>
+        </NavLink>
         <hr />
         <div className="list">
           <i class="fa fa-power-off"></i>
