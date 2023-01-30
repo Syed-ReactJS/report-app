@@ -30,7 +30,8 @@ const Login = () => {
       setLoader(false);
     } catch (error) {
       setLoader(false);
-      toast.error("Something went wrong");
+      toast.error(error?.response?.data?.msg);
+      console.log("error", error);
     }
   };
   return (

@@ -1,9 +1,14 @@
 import { useContext } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import AuthContext from "../../../context/AuthContext";
 
 const SideMenu = () => {
   const { user } = useContext(AuthContext);
+  const navigate = useNavigate();
+  const logout = () => {
+    localStorage.clear();
+    navigate("/");
+  };
   return (
     <div className="menu-container">
       <div className="menu-logo">
@@ -36,7 +41,7 @@ const SideMenu = () => {
           </div>
         </NavLink>
         <hr />
-        <div className="list">
+        <div className="list" onClick={logout}>
           <i class="fa fa-power-off"></i>
           <p>Logout</p>
         </div>

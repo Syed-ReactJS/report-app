@@ -30,7 +30,7 @@ const Login = () => {
       navigate(`panel/${res?.data?.data?.user?._id}/dashboard`);
     } catch (error) {
       setLoader(false);
-      toast.error(error);
+      toast.error(error?.response?.data?.msg);
       console.log("error", error);
     }
   };
