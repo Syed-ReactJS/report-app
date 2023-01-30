@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import "../auth/Auth.css";
+
 const AuthLayout = ({ children }) => {
   const handleTheme = () => {
     let isTheme = localStorage.getItem("theme") ?? "lite-mode";

@@ -33,3 +33,6 @@ body {
 .dark-mode i {
   color: #fff;
 }
+button{
+  cursor: pointer;
+}
