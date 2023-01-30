@@ -20,6 +20,9 @@ const Login = () => {
   const handleSubmit = async (e) => {
     try {
       e.preventDefault();
+      if (data?.password !== data?.confirmPassword) {
+        return toast.error("password and confirm password does not matched");
+      }
       setLoader(true);
       const res = await authRequest.post("signup", data);
       if (res?.data?.success) toast.success(res?.data?.msg);
@@ -27,8 +30,7 @@ const Login = () => {
       setLoader(false);
     } catch (error) {
       setLoader(false);
-      toast.error(error);
-      console.log("error", error);
+      toast.error("Something went wrong");
     }
   };
   return (

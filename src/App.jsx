@@ -30,7 +30,14 @@ export default function App() {
           <Route path="/panel/:UUID/user" element={<User />} />
         </Route>
       </Routes>
-      <Toaster position="top-center" />
+      <Toaster
+        position="top-center"
+        toastOptions={{
+          // Define default options
+          className: "",
+          duration: 10000,
+        }}
+      />
     </AuthContext.Provider>
   );
 }
