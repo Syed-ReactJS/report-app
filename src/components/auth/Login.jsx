@@ -24,6 +24,7 @@ const Login = () => {
       if (res?.data?.success) {
         toast.success(res?.data?.msg);
         localStorage.setItem("auth-token", res?.data?.data?.token);
+        localStorage.setItem("_id", res?.data?.data?.user?._id);
         setUser(res?.data?.data);
       } else toast.error(res?.data?.msg);
       setLoader(false);

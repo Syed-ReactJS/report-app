@@ -16,25 +16,25 @@ const SideMenu = () => {
         <p>Report App</p>
       </div>
       <div className="menu-list">
-        <NavLink to={`/panel/${user?.user?._id}/dashboard`}>
+        <NavLink to={`/panel/${localStorage.getItem("_id")}/dashboard`}>
           <div className="list">
             <i class="fa fa-home"></i>
             <p>Home</p>
           </div>
         </NavLink>
-        <NavLink to={`/panel/${user?.user?._id}/upload`}>
+        <NavLink to={`/panel/${localStorage.getItem("_id")}/upload`}>
           <div className="list">
             <i class="fa fa-arrow-up-from-bracket"></i>
             <p>upload</p>
           </div>
         </NavLink>
-        <NavLink to={`/panel/${user?.user?._id}/report`}>
+        <NavLink to={`/panel/${localStorage.getItem("_id")}/report`}>
           <div className="list">
             <i class="fa fa-file"></i>
             <p>Report</p>
           </div>
         </NavLink>
-        <NavLink to={`/panel/${user?.user?._id}/user`}>
+        <NavLink to={`/panel/${localStorage.getItem("_id")}/user`}>
           <div className="list">
             <i class="fa fa-user"></i>
             <p>Users</p>
